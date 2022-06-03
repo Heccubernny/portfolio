@@ -4,7 +4,7 @@ import Experience from "../components/Timeline";
 
 export default function experience() {
   return (
-    <Seo title="Experience - Manu Arora">
+    <Seo title="Experience - Heccubernny">
       <Experience />
     </Seo>
   );

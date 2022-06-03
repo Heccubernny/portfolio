@@ -21,6 +21,19 @@ const userData = {
       imgUrl: "/Ikubanni_Paul.jpg",
     },
     {
+      title: "Edusite",
+      subtitle:"",
+      description:"One of my journey project to Web design with html and css",
+      technologies:{
+        languages:{"lang":
+        ['html','css']},
+        tools:{"tools": ["sublime text 3", "unsplash"]},
+      },
+      link: "https://edusited.netlify.app",
+      date: "Checking ...",
+      imgUrl: "/Ikubanni_Paul.jpg",
+    },
+    {
       title: "Laravel Ecommerce",
       subtitle:"",
       description:"",
