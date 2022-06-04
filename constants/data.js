@@ -29,7 +29,7 @@ const userData = {
         ['html','css']},
         tools:{"tools": ["sublime text 3", "unsplash"]},
       },
-      link: "https://edusited.netlify.app",
+      link: "https://edusited.vercel.app",
       date: "Checking ...",
       imgUrl: "/Ikubanni_Paul.jpg",
     },
