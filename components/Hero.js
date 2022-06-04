@@ -8,8 +8,8 @@ export default function Hero() {
   useEffect(() => {
     const typed = new Typed(el.current, {
       strings : [
-        "Web Developer", 
-        "UI Designer", 
+        "Backend Developer", 
+        "UI/UX Designer", 
         "Data Scientist", 
         "Statistician"
       ],
@@ -28,9 +28,9 @@ export default function Hero() {
      
       <div className="mx-auto text-center lg:p-10 lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center">
       
-      <h1 className="sm:text-4xl mb-4 text-white title-font text-6xl font-bold capitalize">Hey, I'm Paul</h1>
+      <h1 className="sm:text-4xl mb-4 text-white title-font text-6xl font-bold capitalize">Hey, I'm Heccubernny</h1>
       I'm a <span ref={el} className="text-4xl font-bold text-center"></span>     
-      <p className="lg-inline-block text-xl font-medium">I love to build amazing web apps</p>
+      <p className="lg-inline-block text-xl font-medium">I love to build microservices application for a scalable web apps</p>
           <p className="mb-8 leading-relaxed text-xl font-medium">{userData.about.description}</p>
           <div className = "flex justify-center">
             <a href="/portfolio" className="inline-flex text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded text-lg">See my Works</a>

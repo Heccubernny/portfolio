@@ -115,7 +115,7 @@ export default function Navbar() {
             <FaLinkedinIn />
           </a>
           <a
-            href={userData.socialLinks.twitter}
+            href={userData.socialLinks.github}
             className="text-base font-normal text-gray-600 dark:text-gray-300"
           ><FaGithub />
             
@@ -148,7 +148,7 @@ export default function Navbar() {
       <div className="space-x-8 block md:hidden mt-4">
       <Link href="/">
           <a className="text-base font-normal text-gray-600 dark:text-gray-300">
-            HOME
+            HOM
           </a>
         </Link>
         <Link href="/about">
