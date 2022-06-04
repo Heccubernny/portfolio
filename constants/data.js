@@ -3,7 +3,7 @@ const userData = {
   name: "IKUBANNI PAUL",
   designation: "Software Developer",
   avatarUrl: "/Ikubanni_Paul.png",
-  email: "ikubannipaul@gmail.com",
+  email: "ikubannip@gmail.com",
   phone: "+2348127460133",
   address: "Ilorin, Kwara, Nigeria.",
   
