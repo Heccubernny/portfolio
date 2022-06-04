@@ -43,7 +43,7 @@ const userData = {
       },
       link: "",
       date: "Checking ...",
-      imgUrl: "/Ikubanni_Paul.jpg",
+      imgUrl: "/Ikubanni_Paul.png",
     },
     
   ],
