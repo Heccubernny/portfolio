@@ -2,7 +2,7 @@ const userData = {
   githubUsername: "heccubernny",
   name: "IKUBANNI PAUL",
   designation: "Software Developer",
-  avatarUrl: "/Ikubanni_Paul.jpg",
+  avatarUrl: "/Ikubanni_Paul.png",
   email: "ikubannipaul@gmail.com",
   phone: "+2348127460133",
   address: "Ilorin, Kwara, Nigeria.",
@@ -18,7 +18,7 @@ const userData = {
       },
       link: "https://",
       date: "Checking ...",
-      imgUrl: "/Ikubanni_Paul.jpg",
+      imgUrl: "/Ikubanni_Paul.png",
     },
     {
       title: "Edusite",
@@ -31,7 +31,7 @@ const userData = {
       },
       link: "https://edusited.netlify.app/",
       date: "Checking ...",
-      imgUrl: "/Ikubanni_Paul.jpg",
+      imgUrl: "/Ikubanni_Paul.png",
     },
     {
       title: "Laravel Ecommerce",
