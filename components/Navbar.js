@@ -16,8 +16,8 @@ export default function Navbar() {
   }, []);
 
   return (
-    <div className="max-w-6xl  mx-auto px-4 py-10 md:py-20">
-      <div className="flex  md:flex-row justify-between items-center">
+    <div className="max-w-6xl flex flex-col md:flex-row mx-auto px-4 py-10 md:py-20">
+      <div className="flex md:flex-row justify-between items-center">
         
 
         <div className="flex flex-col">
@@ -33,7 +33,7 @@ export default function Navbar() {
           </Link>
         </div>
 
-        <div className="space-x-8 hidden md:block">
+        <div className="space-x-8 hidden md:block flex flex-col md:flex-row">
         <Link href="/">
             <a
               className={`text-base  ${
