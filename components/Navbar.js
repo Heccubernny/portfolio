@@ -85,13 +85,13 @@ export default function Navbar() {
           <Link href="/contact">
             <a
               className={`text-base  ${
-                router.asPath === "/article"
+                router.asPath === "/contact"
                   ? "text-gray-800 font-bold dark:text-gray-400"
                   : "text-gray-600 dark:text-gray-300 font-normal "
               }`}
             >
-              ARTICLES
-              {router.asPath === "/article"}
+              CONTACT
+              {router.asPath === "/contact"}
             </a>
           </Link>
         </div>
@@ -168,7 +168,7 @@ export default function Navbar() {
         </Link>
         <Link href="/contact">
           <a className="text-base font-normal text-gray-600 dark:text-gray-300">
-          ARTICLE
+          CONTACT
           </a>
         </Link>
       </div>

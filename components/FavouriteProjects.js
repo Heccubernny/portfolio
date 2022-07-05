@@ -9,7 +9,7 @@ export default function FavouriteProjects() {
           <h1 className="text-5xl md:text-9xl font-bold py-20 text-center md:text-left">
             Projects
           </h1>
-          <Link href="/projects">
+          <Link href="/portfolio">
             <a className="mb-20 md:mb-10 px-8 py-4 rounded-md bg-white shadow-lg text-xl font-semibold flex flex-row space-x-4 items-center dark:text-gray-700">
               
               <p>More</p>
