@@ -79,7 +79,7 @@ const userData = {
     {
       title: "Backend Web Developer",
       company: "Freelancing",
-      year: "2021",
+      year: "2021 - Till Date",
       technologies: {
         language: {},
         tools: {},
@@ -90,7 +90,7 @@ const userData = {
     {
       title: "Technical Writer",
       company: "hashnode.dev",
-      year: "2022",
+      year: "2022 - Till Date",
       technologies: {
         language: {},
         tools: {},
