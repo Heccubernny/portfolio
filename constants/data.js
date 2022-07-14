@@ -88,8 +88,19 @@ const userData = {
       desc: "Build and testing api in the backend using Laravel, Django, Express as my backend technologies",
     },
     {
+      title: "Technical Writer",
+      company: "hashnode.dev",
+      year: "2022",
+      technologies: {
+        language: {},
+        tools: {},
+      },
+      companyLink: "https://heccubernny.hasnode.dev",
+      desc: "Wrote technical articles on how to developer as a software engineer and many other things",
+    },
+    {
       title: "Facilitator",
-      company: "TailwindMasterKit",
+      company: "LMU",
       year: "2019",
       technologies: {
         language: {},
