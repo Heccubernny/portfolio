@@ -31,7 +31,7 @@ export default function Hero() {
       
       <h1 className="sm:text-4xl mb-4 text-white title-font text-6xl font-bold capitalize">Hey, I'm Heccubernny</h1>
       I'm a <span ref={el} className="text-4xl font-bold text-center"></span>     
-      <p className="lg-inline-block text-xl font-medium">As an energertic and goal driven young developer I have driven my desire to break through challenges that face the software engineering journey. As a backend developer, my intentions are to developer solution driven projects and a well oriented codes are my most basics guide. Committed to work with result oriented team in building highly secure and scalable applications.</p>
+      <p className="lg-inline-block text-xl font-medium"></p>
           <p className="mb-8 leading-relaxed text-xl font-medium">{userData.about.description}</p>
           <div className = "flex justify-center">
             <a href="/portfolio" className="inline-flex text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded text-lg">See my Works</a>

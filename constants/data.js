@@ -70,8 +70,7 @@ const userData = {
     title:
       "I'm a software engineer, that loves using web application to solve complex real world problem.",
     description: [
-      `Holla.`,
-      `Paul by name`,
+      'As a result-oriented backend developer, my intentions are to develop solution-driven projects and a well oriented codes are my most basic guide. Committed to work with result-oriented team in building highly secure and scalable applications.'
     ],
     currentProject: "Laravel Ecommerce",
     currentProjectUrl: "",
