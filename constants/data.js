@@ -109,7 +109,8 @@ const userData = {
     linkedin: "https://linkedin.com/in/ikubannipaul",
     github: "https://github.com/heccubernny",
     facebook: "https://facebook.com/heccubernny",
-    messenger: "https://m.me/heccubernny"
+    messenger: "https://m.me/heccubernny",
+    hashnode: "https://heccubernny/hashnode.dev"
   },
 };
 

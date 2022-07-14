@@ -9,9 +9,10 @@ export default function Hero() {
     const typed = new Typed(el.current, {
       strings : [
         "Backend Developer", 
-        "UI/UX Designer", 
-        "Data Scientist", 
-        "Statistician"
+        "UI Designer", 
+        "Statistician",
+        "Data Scientist (Still in progress)"
+        
       ],
       startDelay: 300,
       typeSpeed: 300,
