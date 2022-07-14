@@ -23,15 +23,15 @@ const userData = {
     {
       title: "Edusite",
       subtitle:"",
-      description:"One of my journey project to Web design with html and css",
+      description:"One of my early journey project to web design with html and css",
       technologies:{
         languages:{"lang":
-        ['html','css']},
-        tools:{"tools": ["sublime text 3", "unsplash"]},
+        ['nodejs','nextjs', 'reactjs', 'tailwindcss']},
+        tools:{"tools": ["VsCode", "github"]},
       },
       link: "https://edusited.netlify.app/",
       date: "Checking ...",
-      imgUrl: "/Ikubanni_Paul.png",
+      imgUrl: "/portfolio/edusited.png",
     },
     {
       title: "Laravel Ecommerce",
