@@ -1,11 +1,11 @@
 const userData = {
   githubUsername: "heccubernny",
   name: "IKUBANNI PAUL",
-  designation: "Software Developer",
+  designation: "Software Engineer",
   avatarUrl: "/Ikubanni_Paul.png",
   email: "ikubannip@gmail.com",
   phone: "+2348127460133",
-  address: "Ilorin, Kwara, Nigeria.",
+  address: "Kwara, Nigeria.",
   
   projects: [
     {
