@@ -12,7 +12,7 @@ import userData from "@constants/data";
 export default function Home({ repositories }) {
   return (
     <Seo
-      title="Heccubernny - Software Developer"
+      title="Heccubernny - Software Engineer"
       description={userData.description}
     >
       <Hero />
