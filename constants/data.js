@@ -112,7 +112,7 @@ const userData = {
     
   ],
   resumeUrl:
-    "https://docs.google.com/document/d/1EP65S0Lfcn4Rr51gUwY0IfY8amf6QVpGMPBu3DhUnQI/edit?usp=sharing",
+    "https://docs.google.com/document/d/1A9B0ovKQEgwY46TNwe-sCol-9Jtus8029U_ds63R1Kw/edit?usp=sharing",
   socialLinks: {
     instagram: "https://instagram.com/heccubernny1",
     twitter: "https://twitter.com/heccubernny",
