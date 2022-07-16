@@ -9,7 +9,7 @@ const userData = {
   
   projects: [
     {
-      title: "Kitchen-Khaki",
+      title: "Dashboard",
       subtitle:"",
       description:"",
       technologies:{
@@ -34,16 +34,16 @@ const userData = {
       imgUrl: "/portfolio/edusited.png",
     },
     {
-      title: "Laravel Ecommerce",
+      title: "Kitchen-Khaki",
       subtitle:"",
       description:"",
       technologies:{
-        languages:{},
-        tools:{},
+        languages:{"lang": "laravel"},
+        tools:{"tools":["vsCode", "github"]},
       },
-      link: "",
+      link: "https://github.com/heccubernny/kitchen-khaki",
       date: "Checking ...",
-      imgUrl: "/Ikubanni_Paul.png",
+      imgUrl: "/portfolio/HexaShop.png",
     },
     
   ],
