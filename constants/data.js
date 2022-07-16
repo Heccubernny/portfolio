@@ -114,7 +114,7 @@ const userData = {
   resumeUrl:
     "https://docs.google.com/document/d/1A9B0ovKQEgwY46TNwe-sCol-9Jtus8029U_ds63R1Kw/edit?usp=sharing",
   socialLinks: {
-    instagram: "https://instagram.com/heccubernny1",
+    dribbble: "https://dribbble.com/Heccubernny",
     twitter: "https://twitter.com/heccubernny",
     linkedin: "https://linkedin.com/in/ikubannipaul",
     github: "https://github.com/heccubernny",

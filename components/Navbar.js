@@ -2,7 +2,8 @@ import React, { useEffect, useState } from "react";
 import Link from "next/link";
 import { useTheme } from "next-themes";
 import { useRouter } from "next/router";
-import {FaLinkedinIn, FaInstagram, FaTwitter, FaGithub, FaLightbulb, FaMoon } from "react-icons/fa"
+import {FaLinkedinIn, FaDribbble, FaTwitter, FaGithub, FaLightbulb, FaMoon } from "react-icons/fa";
+import {SiHashnode} from "react-icons/si";
 import userData from "constants/data";
 
 export default function Navbar() {
@@ -98,9 +99,15 @@ export default function Navbar() {
 
         <div className="space-x-4 flex flex-row items-center">
           <a
-            href={userData.socialLinks.instagram}
+            href={userData.socialLinks.dribbble}
             className="text-base font-normal text-gray-600 dark:text-gray-300"
-          > < FaInstagram />
+          > < FaDribbble />
+          </a>
+
+          <a
+            href={userData.socialLinks.hashnode}
+            className="text-base font-normal text-gray-600 dark:text-gray-300"
+          > < SiHashnode />
           </a>
           <a
             href={userData.socialLinks.twitter}
