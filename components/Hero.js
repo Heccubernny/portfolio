@@ -39,6 +39,11 @@ export default function Hero() {
               Hire Me
 
             </a>
+            <a href={userData.resumeUrl} className="ml-4 inline-flex text-white-800 bg-gray-800 border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg shadow-lg">
+              <p>Download CV</p>
+              
+
+            </a>
           </div>
       </div>
 
