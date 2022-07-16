@@ -9,16 +9,16 @@ const userData = {
   
   projects: [
     {
-      title: "CryptoApi",
+      title: "Kitchen-Khaki",
       subtitle:"",
       description:"",
       technologies:{
-        languages:{},
-        tools:{},
+        languages:{"lang": "laravel"},
+        tools:{"tools":["vsCode", "github"]},
       },
-      link: "https://",
+      link: "https://github.com/heccubernny/kitchen-khaki",
       date: "Checking ...",
-      imgUrl: "/Ikubanni_Paul.png",
+      imgUrl: "/portfolio/kitchen-khaki.png",
     },
     {
       title: "Edusite",
