@@ -17,7 +17,7 @@ export default function Navbar() {
   }, []);
 
   return (
-    <div className="max-w-6xl flex flex-col md:flex-row mx-auto px-4 py-10 md:py-20">
+    <div className="">
       <div className="flex md:flex-row justify-between items-center">
         
 
@@ -33,6 +33,8 @@ export default function Navbar() {
             </a>
           </Link>
         </div>
+
+        {/* The Menu Link */}
 
         <div className="space-x-8 hidden md:block flex flex-col md:flex-row">
         <Link href="/">
@@ -96,6 +98,8 @@ export default function Navbar() {
             </a>
           </Link>
         </div>
+
+        {/* Social Links */}
 
         <div className="space-x-4 flex flex-row items-center">
           <a
