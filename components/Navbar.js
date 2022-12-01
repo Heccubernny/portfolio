@@ -170,7 +170,7 @@ export default function Navbar() {
         </div>
       </div>
 
-      <div className="space-x-6 block md:hidden mt-4 pr-5">
+      <div className="space-x-4 block md:hidden mt-4 pr-5">
         <Link href="/">
           <a className="text-base font-normal text-gray-600 dark:text-gray-300">
             HOME
