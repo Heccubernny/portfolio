@@ -186,7 +186,7 @@ export default function Navbar() {
             PORTFOLIO
           </a>
         </Link>
-        <Link href="/portfolio">
+        <Link href="/article">
           <a className="text-base font-normal text-gray-600 dark:text-gray-300">
             ARTICLE
           </a>
