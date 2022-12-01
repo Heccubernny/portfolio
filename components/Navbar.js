@@ -73,6 +73,20 @@ export default function Navbar() {
               {router.asPath === "/portfolio"}
             </a>
           </Link>
+
+          <Link href="/article">
+            <a
+              className={`text-base  ${
+                router.asPath === "/articles"
+                  ? "text-gray-800 font-bold dark:text-gray-400"
+                  : "text-gray-600 dark:text-gray-300 font-normal "
+              }`}
+            >
+              ARTICLE{" "}
+              {router.asPath === "/article"}
+            </a>
+          </Link>
+
           <Link href="/experience">
             <a
               className={`text-base  ${
@@ -170,6 +184,11 @@ export default function Navbar() {
         <Link href="/portfolio">
           <a className="text-base font-normal text-gray-600 dark:text-gray-300">
             PORTFOLIO
+          </a>
+        </Link>
+        <Link href="/portfolio">
+          <a className="text-base font-normal text-gray-600 dark:text-gray-300">
+            ARTICLE
           </a>
         </Link>
         <Link href="/timeline">
