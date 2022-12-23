@@ -11,6 +11,7 @@ export default function Navbar() {
   console.log(router.asPath);
   const { theme, setTheme } = useTheme();
   const [mounted, setMounted] = useState(false);
+  const [toggleDrawer, setToggleDrawer] = useState(false);
 
   useEffect(() => {
     setMounted(true);
@@ -170,38 +171,51 @@ export default function Navbar() {
         </div>
       </div>
 
-      <div className="space-x-4 block md:hidden mt-4 pr-5">
-        <Link href="/">
-          <a className="text-base font-normal text-gray-600 dark:text-gray-300">
-            HOME
-          </a>
-        </Link>
-        <Link href="/about">
-          <a className="text-base font-normal text-gray-600 dark:text-gray-300">
-            ABOUT
-          </a>
-        </Link>
-        <Link href="/portfolio">
-          <a className="text-base font-normal text-gray-600 dark:text-gray-300">
-            PORTFOLIO
-          </a>
-        </Link>
-        <Link href="/article">
-          <a className="text-base font-normal text-gray-600 dark:text-gray-300">
-            ARTICLE
-          </a>
-        </Link>
-        <Link href="/timeline">
-          <a className="text-base font-normal text-gray-600 dark:text-gray-300">
-            TIMELINE
-          </a>
-        </Link>
-        <Link href="/contact">
-          <a className="text-base font-normal text-gray-600 dark:text-gray-300">
-          CONTACT
-          </a>
-        </Link>
+      <div className='sm:hidden flex justify-between items-center relative'>
+        <div className='w-[40px] rounded-[10px] bg-white flex justify-center items-center cursor-pointer'>
+        <img 
+            src={menu}
+            alt="menu"
+            className="w-[34px] h-[34px] object-contain cursor-pointer"
+            onClick={() => setToggleDrawer((prev) => !prev)}
+          />
+
+          <div className={`absolute top-[60px] right-0 left-0 bg-[#1c1c24] z-10 shadow-secondary py-4 ${!toggleDrawer ? '-translate-y-[100vh]' : 'translate-y-0'} transition-all duration-700`}>
+          <div className="space-x-4 block md:hidden mt-4 pr-5">
+            <Link href="/">
+              <a className="text-base font-normal text-gray-600 dark:text-gray-300">
+                HOME
+              </a>
+            </Link>
+            <Link href="/about">
+              <a className="text-base font-normal text-gray-600 dark:text-gray-300">
+                ABOUT
+              </a>
+            </Link>
+            <Link href="/portfolio">
+              <a className="text-base font-normal text-gray-600 dark:text-gray-300">
+                PORTFOLIO
+              </a>
+            </Link>
+            <Link href="/article">
+              <a className="text-base font-normal text-gray-600 dark:text-gray-300">
+                ARTICLE
+              </a>
+            </Link>
+            <Link href="/timeline">
+              <a className="text-base font-normal text-gray-600 dark:text-gray-300">
+                TIMELINE
+              </a>
+            </Link>
+            <Link href="/contact">
+              <a className="text-base font-normal text-gray-600 dark:text-gray-300">
+              CONTACT
+              </a>
+            </Link>
+          </div>
       </div>
+    </div>
+    </div>
     </div>
   );
 }
