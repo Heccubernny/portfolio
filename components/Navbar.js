@@ -170,7 +170,7 @@ export default function Navbar() {
         </div>
       </div>
 
-      <div className="space-x-4 flex md:flex-row justify-between items-center px-4 py-10 mx-auto max-w-6xl md:py-20 md:hidden">
+      <div className="space-x-4 flex md:flex-row justify-evenly flex-wrap items-center px-4 py-10 mx-auto max-w-6xl md:py-20 md:hidden">
         <Link href="/">
           <a className="text-base font-normal text-gray-600 dark:text-gray-300">
             HOME
