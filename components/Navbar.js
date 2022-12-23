@@ -174,7 +174,7 @@ export default function Navbar() {
       <div className='sm:hidden flex justify-between items-center relative'>
         <div className='w-[40px] rounded-[10px] bg-white flex justify-center items-center cursor-pointer'>
         <img 
-            src={menu}
+            src={userData.projects[0][imgUrl]}
             alt="menu"
             className="w-[34px] h-[34px] object-contain cursor-pointer"
             onClick={() => setToggleDrawer((prev) => !prev)}
