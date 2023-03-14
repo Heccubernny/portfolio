@@ -12,8 +12,9 @@ jobs:
       - name: My first step
         uses: actions/checkout@main
         with:
-          node-version: 16
+          nnode-version: '16'
       - run: npm ci
+      - run: npm install
       - run: npm run build
 
       
