@@ -1,4 +1,4 @@
-name: CI/CD is Easy!
+name: Build Next.js web app
 
 on:
   push:
@@ -6,14 +6,15 @@ on:
       - main
 
 jobs:
-  build:
+  build-project:
+    name: Build Project
     runs-on: ubuntu-latest
     steps:
-      - name: My first step
-        uses: actions/checkout@main
-        with:
-          node-version: '16'
+      - name: checkout code
+        uses: actions/checkout@v1.0
+      - name: Installing portfolio dependencies
       - run: npm ci
+      - name: Build project for production
       - run: npm run build
 
       
