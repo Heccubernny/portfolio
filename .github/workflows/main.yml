@@ -9,8 +9,8 @@ jobs:
       - name: checkout code
         uses: actions/checkout@v1.0
       - name: Installing portfolio dependencies
-      - run: npm ci
+        run: npm ci
       - name: Build project for production
-      - run: npm run build
+        run: npm run build
 
       
