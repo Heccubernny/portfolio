@@ -9,11 +9,11 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
-      - uses: actions/setup-node@v2
+      - name: My first step
+        uses: actions/checkout@main
         with:
           node-version: 16
       - run: npm ci
       - run: npm run build
-      - run: npm run deploy
+
       
