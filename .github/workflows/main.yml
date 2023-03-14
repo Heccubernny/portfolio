@@ -10,6 +10,8 @@ jobs:
         uses: actions/checkout@main
       - name: Installing portfolio dependencies
         run: npm ci
+      - name: run build failure
+        run: npx browserslist@latest --update-db
       - name: Build project for production
         run: npm run build
 
