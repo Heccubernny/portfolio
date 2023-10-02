@@ -120,7 +120,8 @@ const userData = {
     github: "https://github.com/heccubernny",
     facebook: "https://facebook.com/heccubernny",
     messenger: "https://m.me/heccubernny",
-    hashnode: "https://heccubernny.hashnode.dev"
+    hashnode: "https://heccubernny.hashnode.dev",
+    medium: "https://medium.com/@heccubernny"
   },
 };
 
