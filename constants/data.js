@@ -81,7 +81,7 @@ const userData = {
         tools:{"tools":["vsCode", "github"]},
       },
       link: "https://paul-ikubanni-lendsqr-fe-test.vercel.app/",
-      date: "2023",
+      date: "2022",
       imgUrl: "/portfolio/lendsqr.png",
     },
 
