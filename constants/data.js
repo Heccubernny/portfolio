@@ -45,6 +45,58 @@ const userData = {
       date: "Checking ...",
       imgUrl: "/portfolio/HexaShop.png",
     },
+
+    {
+      title: "Foodstash",
+      subtitle:"",
+      description:"",
+      technologies:{
+        languages:{"lang": ["laravel", "Next Js", "Firebase"]},
+        tools:{"tools":["vsCode", "github"]},
+      },
+      link: "https://fs-landing-two.vercel.app/",
+      date: "2023",
+      imgUrl: "/portfolio/foodstash.png",
+    },
+
+    {
+      title: "Medical Appointment",
+      subtitle:"",
+      description:"",
+      technologies:{
+        languages:{"lang": ["React Js", "Firebase"]},
+        tools:{"tools":["vsCode", "github"]},
+      },
+      link: "https://fs-landing-two.vercel.app/",
+      date: "2023",
+      imgUrl: "/portfolio/medical.png",
+    },
+
+    {
+      title: "Lendsqr Test",
+      subtitle:"",
+      description:"",
+      technologies:{
+        languages:{"lang":["React Js"]},
+        tools:{"tools":["vsCode", "github"]},
+      },
+      link: "https://paul-ikubanni-lendsqr-fe-test.vercel.app/",
+      date: "2023",
+      imgUrl: "/portfolio/lendsqr.png",
+    },
+
+    {
+      title: "Microkiosk",
+      subtitle:"",
+      description:"",
+      technologies:{
+        languages:{"lang": ["laravel", "MySQL"]},
+        tools:{"tools":["vsCode", "github"]},
+      },
+      link: "https://github.com/Heccubernny/Microkiosk",
+      date: "2023",
+      imgUrl: "/portfolio/HexaShop.png",
+    },
     
   ],
   skill: [
