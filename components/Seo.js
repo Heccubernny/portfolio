@@ -8,9 +8,9 @@ export default function Seo({ children, ...customMeta }) {
   const router = useRouter();
 
   const meta = {
-    title: "Ikubanni Paul - Software Engineer, UI designer, Technical Writer",
-    description: `Ikubanni Paul is a result-oriented backend developer, with the intention of developing solution-driven projects .`,
-    image: "/Ikubanni_Paul.jpg",
+    title: "Paul Oladayo - Software Engineer, UI designer, Content Writer",
+    description: `Paul Oladayo is a result-oriented backend developer, with the intention of developing solution-driven projects .`,
+    image: "/Paul_Oladayo.jpg",
     type: "website",
     ...customMeta,
   };

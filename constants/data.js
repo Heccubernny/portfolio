@@ -1,10 +1,10 @@
 const userData = {
   githubUsername: "heccubernny",
-  name: "IKUBANNI PAUL",
+  name: "PAUL OLADAYO",
   designation: "Software Engineer",
-  avatarUrl: "/Ikubanni_Paul.png",
-  email: "ikubannip@gmail.com",
-  phone: "+2348127460133",
+  avatarUrl: "/paul_oladayo.png",
+  email: "heccubernny@gmail.com",
+  phone: "",
   address: "Kwara, Nigeria.",
   
   projects: [
@@ -80,7 +80,7 @@ const userData = {
         languages:{"lang":["React Js"]},
         tools:{"tools":["vsCode", "github"]},
       },
-      link: "https://paul-ikubanni-lendsqr-fe-test.vercel.app/",
+      link: "",
       date: "2022",
       imgUrl: "/portfolio/lendsqr.png",
     },
@@ -168,7 +168,7 @@ const userData = {
   socialLinks: {
     dribbble: "https://dribbble.com/Heccubernny",
     twitter: "https://twitter.com/heccubernny",
-    linkedin: "https://linkedin.com/in/ikubannipaul",
+    linkedin: "",
     github: "https://github.com/heccubernny",
     facebook: "https://facebook.com/heccubernny",
     messenger: "https://m.me/heccubernny",
