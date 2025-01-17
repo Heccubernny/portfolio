@@ -63,13 +63,13 @@ export default function Contact() {
             
           
             <div className="icons-container inline-flex flex-col my-20">
-              <div className="flex flex-row items-center space-x-6 hover:border hover:border-blue-500 p-4">
+              {/* <div className="flex flex-row items-center space-x-6 hover:border hover:border-blue-500 p-4">
 
                <BsTelephone />
                 <p className="text-gray-50 font-light text-sm">
                   {userData.phone}
                 </p>
-              </div>
+              </div> */}
               <div className="flex flex-row items-center space-x-6 hover:border hover:border-blue-500 p-4">
                 <BsMailbox2 />
                 <p className="text-gray-50 font-light text-sm">
